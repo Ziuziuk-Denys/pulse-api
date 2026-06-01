@@ -1,0 +1,30 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Сборка React (фронтенд)
+build/
+dist/
+
+# Сборка Express (бэкенд)
+dist/
+lib/
+
+# Среда и секреты (Критично для безопасности!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Системные файлы и IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Тесты
+coverage/
